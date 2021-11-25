@@ -344,7 +344,7 @@ if (devWidth < 480) {
       const itemImg = document.createElement('img');
       itemImg.classList.add('catalogue-item__img');
       // itemImg.src = `../${data.img}`;
-      itemImg.src = `../${data.img}`;//'../img/dairy-free-almond-milk-acai-banana.jpg';
+      itemImg.src = `${data.img}`;//'../img/dairy-free-almond-milk-acai-banana.jpg';
       const itemPrice = document.createElement('span');
       itemPrice.classList.add('catalogue-item__price');
       itemPrice.textContent = `${data.price} ₽/кг`;
